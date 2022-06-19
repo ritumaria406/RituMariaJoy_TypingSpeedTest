@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Typing Game </title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div class="app-wrap">    
+    <main>
+      <h1>Test Your Typing Speed</h1>
+      <section class="div-area">        
+        <div class="content-box">
+          <span class="text-displayed">ERRORS</span>
+          <span class="error-count count-displayed">0</span>
+        </div>
+        <div class="content-box">
+          <span class="text-displayed">TIME</span>
+          <span class="time-count count-displayed">60s</span>
+        </div>
+        
+        <div class="content-box">
+          <span class="text-displayed">ACCURACY</span>
+          <span class="accuracy-count count-displayed">100%</span>
+        </div>
+      </section>
+      <div class="div-area">
+        <div class="validate-typing-text">Click on the area below to start the game</div>        
+      </div>
+      <div class="div-area input-text">
+        <textarea class="input-text-typing">Start typing here...</textarea>            
+      </div>
+      <button class="restart-btn" onClick="window.location.reload(true)" >Restart</button>
+    </main>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
